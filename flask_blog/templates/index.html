@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block app_content %}
+
+    {% if form %}
+        {{ wtf.quick_form(form) }}
+        <br>
+    {% endif %}
+
+    <table id="post-table" class="table table-hover" style="table-layout: auto; width: 100%;">
+        {% for post in posts %}
+            {% include "_post.html" %}
+        {% endfor %}
+    </table>
+
+
+    {% include "_pages.html" %}
+
+{% endblock %}
+
+

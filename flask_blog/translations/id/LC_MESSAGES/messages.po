@@ -1,0 +1,289 @@
+# Indonesian translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-11-15 15:59+0700\n"
+"PO-Revision-Date: 2020-11-14 22:22+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: id\n"
+"Language-Team: id <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: app/__init__.py:26
+msgid "Please log in to access this page."
+msgstr "Silakan masuk terlebih dahulu untuk mengakses halaman ini."
+
+#: app/forms.py:12 app/forms.py:19 app/forms.py:37
+msgid "Username"
+msgstr "Nama Pengguna"
+
+#: app/forms.py:13 app/forms.py:21
+msgid "Password"
+msgstr "Kata Sandi"
+
+#: app/forms.py:14
+msgid "Remember Me"
+msgstr "Ingat Saya"
+
+#: app/forms.py:15 app/templates/login.html:5
+msgid "Sign in"
+msgstr "Masuk"
+
+#: app/forms.py:20 app/forms.py:68
+msgid "Email"
+msgstr "Surel"
+
+#: app/forms.py:22
+msgid "Repeat Password"
+msgstr "Ulangi Kata Sandi"
+
+#: app/forms.py:23 app/forms.py:64 app/forms.py:79
+msgid "Submit"
+msgstr "Proses"
+
+#: app/forms.py:28 app/forms.py:44
+msgid "This username is already taken!"
+msgstr "Nama pengguna yang Anda pilih tidak tersedia!"
+
+#: app/forms.py:33
+msgid "This email is already taken!"
+msgstr "Alamat surel yang Anda pilih tidak tersedia!"
+
+#: app/forms.py:38
+msgid "About me"
+msgstr "Tentang saya"
+
+#: app/forms.py:39 app/forms.py:51 app/forms.py:75
+msgid "Save"
+msgstr "Simpan"
+
+#: app/forms.py:48
+msgid "Old Password"
+msgstr "Kata Sandi Lama"
+
+#: app/forms.py:49 app/forms.py:73
+msgid "New Password"
+msgstr "Kata Sandi Baru"
+
+#: app/forms.py:50 app/forms.py:74
+msgid "Repeat New Password"
+msgstr "Ulangi Kata Sandi Baru"
+
+#: app/forms.py:56
+msgid "Please enter a different password!"
+msgstr "Gunakan kata sandi yang berbeda!"
+
+#: app/forms.py:61
+msgid "Say something..."
+msgstr "Katakan sesuatu..."
+
+#: app/forms.py:69 app/templates/request_password_reset.html:5
+msgid "Request Password Reset"
+msgstr "Mohon Pengaturan Ulang Kata Sandi"
+
+#: app/routes.py:39
+msgid "Your post has been updated!"
+msgstr "Tulisan Anda telah diperbaharui!"
+
+#: app/routes.py:73
+#, python-format
+msgid "Registration for %(username)s is successful. Log in now!"
+msgstr "Pendaftaran nama pengguna %(username)s berhasil. Masuk sekarang!"
+
+#: app/routes.py:88
+msgid "Invalid username or password!"
+msgstr "Nama pengguna atau kata sandi tidak valid!"
+
+#: app/routes.py:95
+#, python-format
+msgid "Welcome %(username)s"
+msgstr "Selamat datang %(username)s"
+
+#: app/routes.py:104
+msgid "You have just logout!"
+msgstr "Anda telah keluar!"
+
+#: app/routes.py:133
+msgid "Your profile has been updated!"
+msgstr "Profil Anda telah diperbaharui!"
+
+#: app/routes.py:150
+msgid "Your password has been updated!"
+msgstr "Kata sandi Anda telah diperbaharui!"
+
+#: app/routes.py:160 app/routes.py:178
+#, python-format
+msgid "User %(username)s is not found!"
+msgstr "Nama pengguna %(username)s tidak ditemukan!"
+
+#: app/routes.py:164
+msgid "You can't follow yourself!"
+msgstr "Anda tidak bisa mengikuti diri sendiri!"
+
+#: app/routes.py:169
+#, python-format
+msgid "You're now following %(username)s!"
+msgstr "Anda sekarang mengikuti %(username)s"
+
+#: app/routes.py:182
+msgid "You can't unfollow yourself!"
+msgstr "Anda tidak bisa berhenti mengikuti diri sendiri!"
+
+#: app/routes.py:187
+#, python-format
+msgid "You're not following %(username)s anymore."
+msgstr "Anda telah berhenti mengikuti %(username)s"
+
+#: app/routes.py:201
+msgid "An email has been sent to your email to reset your password!"
+msgstr "Sebuah surel telah dikirimkan untuk mengatur ulang kata sandi!"
+
+#: app/routes.py:220
+msgid "Your password has been reset!"
+msgstr "Kata sandi Anda telah diatur ulang!"
+
+#: app/templates/_pages.html:5
+msgid "Newer posts"
+msgstr "Tulisan lebih baru"
+
+#: app/templates/_pages.html:10
+msgid "Older posts"
+msgstr "Tulisan lebih lama"
+
+#: app/templates/_post.html:16
+#, python-format
+msgid "%(username)s said %(when)s : "
+msgstr "%(username)s mengatakan %(when)s : "
+
+#: app/templates/_post.html:28
+msgid "Translate"
+msgstr "Terjemahkan"
+
+#: app/templates/base.html:7
+msgid "Welcome to"
+msgstr "Selamat datang di"
+
+#: app/templates/base.html:26
+msgid "Home"
+msgstr "Halaman Utama"
+
+#: app/templates/base.html:30
+msgid "Login"
+msgstr "Masuk"
+
+#: app/templates/base.html:31 app/templates/register.html:5
+msgid "Register"
+msgstr "Daftar"
+
+#: app/templates/base.html:33
+msgid "Explore"
+msgstr "Jelajah"
+
+#: app/templates/base.html:34
+msgid "Profile"
+msgstr "Profil"
+
+#: app/templates/base.html:35
+msgid "Logout"
+msgstr "Keluar"
+
+#: app/templates/change_password.html:5 app/templates/edit_profile.html:14
+msgid "Change Password"
+msgstr "Ubah Kata Sandi"
+
+#: app/templates/change_password.html:14
+msgid "Back"
+msgstr "Kembali"
+
+#: app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Ubah Profil"
+
+#: app/templates/index.html:6
+#, python-format
+msgid "Hi %(username)s"
+msgstr "Halo %(username)s"
+
+#: app/templates/login.html:14 app/templates/login.html:21
+#: app/templates/register.html:14
+msgid "here"
+msgstr "di sini"
+
+#: app/templates/login.html:17
+#, python-format
+msgid "New user? Sign up %(where)s"
+msgstr "Pengguna baru? Daftar %(where)s"
+
+#: app/templates/login.html:24
+#, python-format
+msgid "Forgot Password? Reset %(where)s"
+msgstr "Lupa kata sandi? Atur ulang %(where)s"
+
+#: app/templates/profile.html:8
+#, python-format
+msgid "User: %(username)s"
+msgstr "Pengguna: %(username)s"
+
+#: app/templates/profile.html:13
+#, python-format
+msgid "Last seen on: %(time)s"
+msgstr "Aktivitas terakhir: %(time)s"
+
+#: app/templates/profile.html:17
+#, python-format
+msgid "%(number)s followers"
+msgstr "%(number)s pengikut"
+
+#: app/templates/profile.html:18
+#, python-format
+msgid "%(number)s following"
+msgstr "%(number)s diikuti"
+
+#: app/templates/profile.html:22
+msgid "Edit your profile"
+msgstr "Ubah Profil"
+
+#: app/templates/profile.html:27
+msgid "Follow"
+msgstr "Ikuti"
+
+#: app/templates/profile.html:34
+msgid "Unfollow"
+msgstr "Berhenti mengikuti"
+
+#: app/templates/register.html:17
+#, python-format
+msgid "Already have an account? Sign in %(where)s"
+msgstr "Sudah punya akun? Silakan masuk %(where)s"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Password"
+msgstr "Ulangi Kata Sandi"
+
+#: app/templates/errors/404.html:4
+msgid "Not Found"
+msgstr "Tidak ditemukan"
+
+#: app/templates/errors/404.html:5 app/templates/errors/500.html:6
+msgid "Back to home"
+msgstr "Kembali ke halaman utama"
+
+#: app/templates/errors/500.html:4
+msgid "Unexpected Error!"
+msgstr "Kesalahan yang tidak terduga!"
+
+#: app/templates/errors/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience."
+msgstr ""
+"Administrator telah diberitahu tentang kesalahan ini. Mohon maaf atas "
+"ketidaknyamanannya!"
+
